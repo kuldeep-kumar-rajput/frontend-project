@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.pop {
+
+    background-color: rgba(0, 0, 0, 0.674);
+    text-align: center;
+    padding: 2px;
+}
+
+.pop p {
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.memes {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.card {
+    margin-bottom: 2px;
+    border: 0.2px solid silver;
+
+
+}
+
+.m-2 {
+    width: 300px;
+    height: 300px;
+    border: 0.2px solid silver;
+    border-radius: 6px;
+
+}
+
+p {
+    margin-bottom: 2px;
+    margin-left: 8px;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-bottom: 6px;
+}
+
+.form {
+    position: fixed;
+    z-index: 1;
+     width: 100%;
+     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all 1s ease-in-out;
+   
+   
+
+}
+
+.inner {
+    border: 1px solid silver;
+    padding: 30px;
+    border-radius: 6px;
+
+}
+
+.inpgrid {
+    display: grid;
+    gap: 10px;
+}
+.button1{
+    background-color: rgb(5, 202, 237);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 8px;
+   
+}
+.button2{
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 8px;
+   
+}
